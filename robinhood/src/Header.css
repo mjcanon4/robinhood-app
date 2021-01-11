@@ -3,10 +3,16 @@
   align-items: center;
   justify-content: space-between;
   height: 64px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .header_logo {
   margin-left: 48px;
+}
+
+.header_logo img {
+  transform: scale(0.8);
 }
 
 .header_logo img:hover {

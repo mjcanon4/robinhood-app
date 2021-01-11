@@ -21,5 +21,79 @@
 .buying_power {
   display: flex;
   justify-content: space-between;
-  padding: 10px 10px 20px 10px;
+  border-bottom: 1px solid #3b4754;
+  padding: 20px 0px 20px 0px;
+  border-radius: 5px;
+}
+
+.buying_power h2 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.buying_power:hover {
+  background-color: #3b4754;
+}
+
+.market_section {
+  margin-top: 60px;
+}
+
+.market_box {
+  height: 10vh;
+  padding: 20px;
+  border: 1px solid #31363a;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.market_box:hover {
+  background-color: #31363a;
+}
+
+.market_box p {
+  color: #5ac53b;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.market_box h5 {
+  align-items: center;
+}
+
+.popular_section {
+  margin-top: 60px;
+  height: fit-content;
+  padding-bottom: 20px;
+}
+
+.popular_intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+}
+
+.popular_intro p {
+  font-weight: bold;
+  color: #5ac53b;
+}
+
+.popular_badges {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popular_badges > .topic_badge {
+  border: 1px solid #31363a;
+  background-color: transparent;
+  color: white;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.popular_badges > .topic_badge:hover {
+  background-color: #31363a;
 }

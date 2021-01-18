@@ -6,3 +6,5 @@
                         on the right are real time prices. When you click on a
                         stock name you "buy one" and you will see your shares
                         rise!
+                        
+                        As this is a React based project, please navigate to the "src" file to see all of the logic and code.
